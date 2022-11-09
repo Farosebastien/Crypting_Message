@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=375" />
+        <meta name="description" content="Site de chiffrage de messages">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+        <title>Site de chiffrage de messages</title>
+    </head>
+    <body>
+        <main>
+            <header>
+                <i class="fas fa-dice-d20"></i>
+                <h1 class="title">Message Encryption</h1>
+                <i class="fas fa-dice-d20"></i>
+            </header>
+            <section>
+                <aside class="encryption">
+                    <h3>Ecrivez votre message à chiffrer ici</h3>
+                    <div class="form">
+                        <form action="" method="post">
+                            <input id="encryption_input" type="text" placeholder="Que des espaces pour séparer les mots, aucune ponctuation!!">
+                            <button type="submit" id="encryption_btn">Chiffrer</button>
+                        </form>
+                        <p id="encrytpion_result">message chiffré:</p>
+                    </div>
+                </aside>
+                <aside class="decoding">
+                    <h3>Copiez le message à déchiffrer ici</h3>
+                    <div class="form">
+                        <form action="" method="post">
+                            <input id="decoding_input" type="text" placeholder="">
+                            <button type="submit" id="decoding_btn">Décoder</button>
+                        </form>
+                        <p id="decoding_result">message décodé:  </p>
+                    </div>
+                </aside>
+            </section>
+            <footer>
+                <h2 class="disclaimer">Produit par <a href="https://www.lacustomagency.com">La Custom Agency</a> - 2022</h2>
+            </footer>
+        </main>
+        <script src="./Js/script.js"></script>
+        <script src="https://kit.fontawesome.com/5b77b1eedb.js" crossorigin="anonymous"></script>
+    </body>
+</html>
